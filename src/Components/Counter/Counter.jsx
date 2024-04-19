@@ -36,40 +36,40 @@ const Counter = () => {
     return (
         <div className="d-flex justify-content-between align-items-center p-4">
             <div className='text-light h1 d-flex flex-column align-items-center'>
-                <span className='time-text'>{formatNumber(timeLeft.months)}</span>
-                <p className='h6 p-1' style={{ backgroundColor: 'gold', borderRadius: '15px' }}>
+                <span className='time-text '>{formatNumber(timeLeft.months)}</span>
+                <p className='h6 px-2 py-1' style={{ backgroundColor: 'gold', borderRadius: '15px' }}>
                     months
                 </p>
             </div>
-            <span className="text-light h1">:</span>
+            <span className="text-light h1" style={{ marginBottom: "3rem" }}>:</span>
             <div className='text-light h1 d-flex flex-column align-items-center'>
-                <span className='time-text'>{formatNumber(timeLeft.days)}</span>
-                <p className='h6 p-1' style={{ backgroundColor: 'gold', borderRadius: '15px' }}>
+                <span className='time-text '>{formatNumber(timeLeft.days)}</span>
+                <p className='h6 px-3 py-1' style={{ backgroundColor: 'gold', borderRadius: '15px' }}>
                     days
                 </p>
             </div>
-            <span className="text-light h1">:</span>
+            <span className="text-light h1" style={{ marginBottom: "3rem" }}>:</span>
             <div className='text-light h1 d-flex flex-column align-items-center'>
                 <span className='time-text'>{formatNumber(timeLeft.hours)}</span>
-                <p className='h6 p-1' style={{ backgroundColor: 'gold', borderRadius: '15px' }}>
+                <p className='h6 px-3 py-1' style={{ backgroundColor: 'gold', borderRadius: '15px' }}>
                     hours
                 </p>
             </div>
-            <span className="text-light h1">:</span>
+            <span className="text-light h1" style={{ marginBottom: "3rem" }}>:</span>
             <div className='text-light h1 d-flex flex-column align-items-center'>
                 <span className='time-text'>{formatNumber(timeLeft.minutes)}</span>
-                <p className='h6 p-1' style={{ backgroundColor: 'gold', borderRadius: '15px' }}>
+                <p className='h6 px-2 py-1' style={{ backgroundColor: 'gold', borderRadius: '15px' }}>
                     minutes
                 </p>
             </div>
-            <span className="text-light h1">:</span>
+            <span className="text-light h1" style={{ marginBottom: "3rem" }}>:</span>
             <div className='text-light h1 d-flex flex-column align-items-center'>
                 <span className='time-text'>{formatNumber(timeLeft.seconds)}</span>
-                <p className='h6 p-1' style={{ backgroundColor: 'gold', borderRadius: '15px' }}>
+                <p className='h6 px-2 py-1' style={{ backgroundColor: 'gold', borderRadius: '15px' }}>
                     seconds
                 </p>
             </div>
-        </div>
+        </div >
     );
 };
 

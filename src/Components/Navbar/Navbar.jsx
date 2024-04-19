@@ -1,12 +1,34 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import './Navbar.css'; // Import custom CSS file
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logos from '../../images/ConferenceLogos.png'
+import logos from '../../images/ConferenceLogos.png';
 
 const CustomNavbar = () => {
+    const [navbarBackground, setNavbarBackground] = useState('transparent');
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentScrollPosition = window.pageYOffset;
+            const navbarHeight = 80; // Adjust this according to your navbar height
+            const threshold = navbarHeight * 0.5; // Change the percentage as needed
+
+            if (currentScrollPosition > threshold) {
+                setNavbarBackground('rgba(48,43,130,0.8)');
+            } else {
+                setNavbarBackground('transparent');
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
-        <Navbar bg="transparent" expand="lg" fixed="top" className="custom-navbar m-4">
+        <Navbar style={{ background: navbarBackground, width: '100%', position: 'fixed', zIndex: 1000, padding: 0, margin: 0 }} expand="lg" className="custom-navbar">
             <div className="container">
                 <img src={logos} className='img-fluid w-25' alt="" />
                 <Navbar.Toggle aria-controls="navbarSupportedContent" className="bg-light text-light" />
