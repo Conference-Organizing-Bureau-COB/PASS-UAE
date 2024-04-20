@@ -2,14 +2,14 @@
 // import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/js/bootstrap.min.js';
 import Hero from './Components/Hero/Hero';
-import Test from './Components/Test/Test';
+import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   return <>
+    <Navbar />
     <Hero />
-    <Test />
   </>
 }
 

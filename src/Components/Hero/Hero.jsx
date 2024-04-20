@@ -1,33 +1,47 @@
-import React from 'react'
-
+import React from 'react';
+import background from '../../images/BGs/1.jpg';
+import panArabLogo from '../../images/Conference-Title.png'
+import Counter from '../Counter/Counter';
 const Hero = () => {
-    return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="container">
-                <a className="navbar-brand" link="#">Brand</a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
+    const containerStyle = {
+        backgroundImage: `url(${background})`,
+        backgroundSize: '100% 100%', // Adjust to cover full width and height
+        backgroundRepeat: 'no-repeat',
+        width: '100vw', // Use vw unit for viewport width
+        height: '100vh', // Adjust height as needed
+    };
 
-                <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul className="navbar-nav">
-                        <li className="nav-item active">
-                            <a className="nav-link" link="#">Home <span className="sr-only">(current)</span></a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" link="#">Link</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" link="#">Another Link</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled" link="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
+    // const panArabStyle = {
+    //     backgroundImage: `url(${panArabLogo})`,
+    //     backgroundSize: '50%', // Adjust to cover full width and height
+    //     backgroundRepeat: 'no-repeat',
+    //     width: '100vw', // Use vw unit for viewport width
+    //     height: '100vh', // Adjust height as needed
+    // };
+    return (<>
+        <div style={containerStyle} className='container-fluid '>
+            <div className="row">
+                <div className="col-1">
+                    {/* <div className="d-flex align-items-center justify-content-center"> */}
+                    {/* <div style={panArabStyle}></div> */}
+                    {/* </div> */}
+                </div>
+                <div className="col-5 mt-5 pt-4 w-50">
+                    <img src={panArabLogo} className='img-fluid mt-5 pt-5' alt='PanArab Logo' />
+                    <div className="d-flex justify-content-between">
+                        <h4 className='text-light mt-3 '>24-26 January 2025</h4>
+                        <h4 className='text-light mt-3 '>Ritz-Carlton (DIFC) Dubai, UAE</h4>
+                    </div>
+
+                    <div className='mt-3'>
+                        <Counter />
+                    </div>
+
                 </div>
             </div>
-        </nav>
-    )
-}
+        </div>
+    </>
+    );
+};
 
-export default Hero
+export default Hero;
