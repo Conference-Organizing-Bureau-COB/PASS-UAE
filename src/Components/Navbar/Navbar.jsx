@@ -11,7 +11,7 @@ const CustomNavbar = () => {
         const handleScroll = () => {
             const currentScrollPosition = window.pageYOffset;
             const navbarHeight = 80; // Adjust this according to your navbar height
-            const threshold = navbarHeight * 0.5; // Change the percentage as needed
+            const threshold = navbarHeight * 1.8; // Change the percentage as needed
 
             if (currentScrollPosition > threshold) {
                 setNavbarBackground('rgba(48,43,130,0.8)');
