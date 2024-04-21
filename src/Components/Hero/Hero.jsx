@@ -1,46 +1,42 @@
 import React from 'react';
 import background from '../../images/BGs/1.jpg';
-import panArabLogo from '../../images/Conference-Title.png'
+import conferenceTitle from '../../images/Conference-Title.png'
 import Counter from '../Counter/Counter';
+import { Container, Row, Col } from 'react-bootstrap';
 const Hero = () => {
     const containerStyle = {
         backgroundImage: `url(${background})`,
-        backgroundSize: '100% 100%', // Adjust to cover full width and height
+        backgroundSize: '100vw 650px', // Adjust to cover full width and height
         backgroundRepeat: 'no-repeat',
         width: '100%', // Use vw unit for viewport width
         height: '600px', // Adjust height as needed
-
     };
 
-    // const panArabStyle = {
-    //     backgroundImage: `url(${panArabLogo})`,
-    //     backgroundSize: '50%', // Adjust to cover full width and height
-    //     backgroundRepeat: 'no-repeat',
-    //     width: '100vw', // Use vw unit for viewport width
-    //     height: '100vh', // Adjust height as needed
-    // };
     return (<>
-        <div style={containerStyle} className='container-fluid '>
-            <div className="row">
-                <div className="col-1">
-                    {/* <div className="d-flex align-items-center justify-content-center"> */}
-                    {/* <div style={panArabStyle}></div> */}
-                    {/* </div> */}
-                </div>
-                <div className="col-5 mt-5 pt-4 w-50">
-                    <img src={panArabLogo} className='img-fluid mt-5 pt-5' alt='PanArab Logo' />
-                    <div className="d-flex justify-content-between">
-                        <h4 className='text-light mt-3 '>24-26 January 2025</h4>
-                        <h4 className='text-light mt-3 '>Ritz-Carlton (DIFC) Dubai, UAE</h4>
-                    </div>
+        <Container fluid style={containerStyle}>
+            <Row>
+                <Col xs={1} sm={1} md={1} lg={1}></Col>
+                <Col xs={12} sm={6} md={4} lg={8} className='mt-5 pt-4'>
+                    <img src={conferenceTitle} className='img-fluid mt-5 pt-5 px-4' alt='PanArab Logo' />
+                </Col>
+            </Row>
 
-                    <div className='mt-3'>
+            <Row>
+                <Col xs={12} sm={8} md={8} lg={8} className='d-flex flex-row justify-content-evenly gap-5'>
+                    <h4 className='text-light mt-3 px-4'>24-26 January 2025</h4>
+                    <h4 className='text-light mt-3 '>Ritz-Carlton (DIFC) Dubai, UAE</h4>
+                </Col>
+            </Row>
+
+            <Container fluid>
+                <Row className='d-flex gap-3'>
+                    <Col xs={1} sm={1} md={1} lg={1}></Col>
+                    <Col xs={12} sm={12} md={12} lg={6} className='mt-5'>
                         <Counter />
-                    </div>
-
-                </div>
-            </div>
-        </div>
+                    </Col>
+                </Row>
+            </Container>
+        </Container >
     </>
     );
 };
