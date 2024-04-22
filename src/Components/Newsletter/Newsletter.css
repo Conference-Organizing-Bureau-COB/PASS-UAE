@@ -1,0 +1,10 @@
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: #ced4da !important;
+    outline: none !important;
+}
+
+.custom-shadow {
+    box-shadow: 5px 8px 10px rgba(0, 0, 2, 0.5) !important;
+    /* Adjust shadow intensity as needed */
+}
