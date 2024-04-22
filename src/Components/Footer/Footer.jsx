@@ -68,7 +68,7 @@ export default function Footer() {
                                     </div>
                                     <div className='d-flex gap-2 m-0 align-items-center'>
                                         {/* <FontAwesomeIcon icon={faViber} className='viber ms-1' /> */}
-                                        <FontAwesomeIcon icon={faPhone} className='ms-2' />
+                                        <FontAwesomeIcon icon={faPhone} style={{ color: "gold" }} className='ms-2' />
                                         <span style={{ fontSize: "14px" }} className='m-0   fw-bold'>(+202) 33023642</span>
                                         <span style={{ fontSize: "14px" }} className='m-0   fw-bold'>(+202) 33023642</span>
                                         <span style={{ fontSize: "14px" }} className='m-0  fw-bold'>(+202) 33023642</span>
