@@ -7,12 +7,14 @@ import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import Welcome from './Components/Welcome/Welcome';
+import Overview from './Components/Overview/Overview';
 
 function App() {
   return <>
     <Navbar />
     <Hero />
     <Welcome />
+    <Overview />
     <Footer />
   </>
 }
