@@ -9,6 +9,7 @@ import Footer from './Components/Footer/Footer';
 import Welcome from './Components/Welcome/Welcome';
 import Overview from './Components/Overview/Overview';
 import About from './Components/About/About';
+import Conference from './Components/Conference/Conference';
 
 function App() {
   return <>
@@ -17,6 +18,7 @@ function App() {
     <Welcome />
     <Overview />
     <About />
+    <Conference />
     <Footer />
   </>
 }
