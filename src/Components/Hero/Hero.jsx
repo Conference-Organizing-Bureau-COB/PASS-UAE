@@ -22,8 +22,9 @@ const Hero = () => {
             </Row>
 
             <Row>
-                <Col xs={12} sm={8} md={8} lg={8} className='d-flex flex-row justify-content-evenly gap-5'>
-                    <h4 className='text-light mt-3 px-4'>24-26 January 2025</h4>
+
+                <Col xs={12} sm={8} md={8} lg={9} className='d-flex px-auto flex-row justify-content-evenly gap-5'>
+                    <h4 className='text-light mt-3 ps-4'>24-26 January 2025</h4>
                     <h4 className='text-light mt-3 '>Ritz-Carlton (DIFC) Dubai, UAE</h4>
                 </Col>
             </Row>
