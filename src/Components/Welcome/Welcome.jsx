@@ -24,7 +24,6 @@ const Welcome = () => {
                 <h3 className='text-light text-uppercase text-center welcome-text p-2'><span className=' text-decoration-underline'>Wel</span>come Message</h3>
             </div>
 
-
             <div className="container px-5 pt-4 content">
                 <p className='fw-bold h5' style={{ color: '#2E419D' }}>Dear Esteemed Partners and Exhibitors,</p>
                 <p>It is with great pleasure that we invite you to the 14th Pan Arab Spine Conference, a prestigious event organized by the Pan Arab Spine Society (PASS).
