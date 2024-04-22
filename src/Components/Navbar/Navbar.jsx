@@ -57,7 +57,7 @@ const CustomNavbar = () => {
                         <Nav.Item>
                             <Nav.Link className="text-light text-uppercase custom-size" href="#">Welcome Message</Nav.Link>
                         </Nav.Item>
-                        <Dropdown>
+                        <Dropdown >
                             <Dropdown.Toggle className="text-light text-uppercase border-0 custom-size px-0" variant="transparent" id="dropdown-basic">
                                 Overview
                             </Dropdown.Toggle>
