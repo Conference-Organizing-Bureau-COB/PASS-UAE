@@ -29,3 +29,7 @@
     width: 100%;
     /* Underline width on hover */
 }
+
+.custom-size {
+    font-size: 10px;
+}

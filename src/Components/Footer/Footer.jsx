@@ -16,7 +16,7 @@ export default function Footer() {
             <iframe
                 title="Google Maps"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.1396453129555!2d31.18783597390692!3d30.061531417763906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458414125507acb%3A0xee704d3c3e7b3ce3!2s14%20El-Khaleel%2C%20Mit%20Akaba%2C%20Agouza%2C%20Giza%20Governorate%203754202!5e0!3m2!1sen!2seg!4v1713633456646!5m2!1sen!2seg"
-                width="380"
+                width="100%"
                 height="380"
                 style={{ border: '0' }}
                 allowFullScreen=""
