@@ -7,8 +7,9 @@ const Hero = () => {
         backgroundImage: `url(${background})`,
         backgroundSize: '100% 100%', // Adjust to cover full width and height
         backgroundRepeat: 'no-repeat',
-        width: '100vw', // Use vw unit for viewport width
-        height: '100vh', // Adjust height as needed
+        width: '100%', // Use vw unit for viewport width
+        height: '600px', // Adjust height as needed
+
     };
 
     // const panArabStyle = {

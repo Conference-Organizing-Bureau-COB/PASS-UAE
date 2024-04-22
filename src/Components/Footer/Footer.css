@@ -1,0 +1,20 @@
+/* .circle-icon {
+    color: #999999;
+} */
+
+.hover {
+    color: #999999;
+}
+
+.hover:hover {
+    color: gold;
+}
+
+.hover:active {
+    color: gold;
+}
+
+.viber {
+    border: 2px solid gold;
+    border-radius: 50%;
+}
