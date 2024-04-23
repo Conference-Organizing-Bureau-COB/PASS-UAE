@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/PASS-UAE/static/css/main.e1c85d1e.css",
+    "main.js": "/PASS-UAE/static/js/main.39e6faee.js",
+    "static/js/787.cf892656.chunk.js": "/PASS-UAE/static/js/787.cf892656.chunk.js",
+    "static/media/5.jpg": "/PASS-UAE/static/media/5.2149fe1f895eba402f04.jpg",
+    "static/media/1.jpg": "/PASS-UAE/static/media/1.46d26ba44aa84f0d6748.jpg",
+    "static/media/4.jpg": "/PASS-UAE/static/media/4.f83685ba5c9d6ee6da0a.jpg",
+    "static/media/3.jpg": "/PASS-UAE/static/media/3.15700db9fd0bdd971aa2.jpg",
+    "static/media/2.jpg": "/PASS-UAE/static/media/2.ad464ffe3b01eb548432.jpg",
+    "static/media/sameh.jpg": "/PASS-UAE/static/media/sameh.8fd4c219a9fd3296cb2b.jpg",
+    "static/media/Youssry_Elhawary.jpg": "/PASS-UAE/static/media/Youssry_Elhawary.1b59856cd81d01db98cc.jpg",
+    "static/media/oubaid.jpg": "/PASS-UAE/static/media/oubaid.bec6416a9c25fb4a90ed.jpg",
+    "static/media/UAE.png": "/PASS-UAE/static/media/UAE.db68c8da9016a8a127ce.png",
+    "static/media/ConferenceLogos.png": "/PASS-UAE/static/media/ConferenceLogos.db2a4dc0a45e797123ea.png",
+    "static/media/hand-clipboard.png": "/PASS-UAE/static/media/hand-clipboard.8bdaa2579ead8eeb0270.png",
+    "static/media/eg.png": "/PASS-UAE/static/media/eg.d5263874531d60cbc5af.png",
+    "static/media/Conference-Title.png": "/PASS-UAE/static/media/Conference-Title.b043b604747e9fbfab72.png",
+    "static/media/6.jpg": "/PASS-UAE/static/media/6.a8507ceb427c59fd7fda.jpg",
+    "index.html": "/PASS-UAE/index.html",
+    "main.e1c85d1e.css.map": "/PASS-UAE/static/css/main.e1c85d1e.css.map",
+    "main.39e6faee.js.map": "/PASS-UAE/static/js/main.39e6faee.js.map",
+    "787.cf892656.chunk.js.map": "/PASS-UAE/static/js/787.cf892656.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1c85d1e.css",
+    "static/js/main.39e6faee.js"
+  ]
+}
