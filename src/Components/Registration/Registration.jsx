@@ -92,7 +92,7 @@ const Registration = () => {
             </div>
 
             <div className="row">
-                <div className='container col-lg-9 col-md-12 col-sm-12 col-xs-12 d-flex gap-5'>
+                <div className='container col-lg-9 col-md-12 col-sm-12 col-xs-12 d-flex gap-2'>
                     <h5 className='col-6 m-0 py-1  custom-text-color'>
                         - Conference kit & materials
                     </h5>
@@ -100,7 +100,7 @@ const Registration = () => {
                         - Conference certificate
                     </h5>
                 </div>
-                <div className='container col-lg-9 col-md-12 col-sm-12 col-xs-12 d-flex gap-5'>
+                <div className='container col-lg-9 col-md-12 col-sm-12 col-xs-12 d-flex gap-2'>
                     <h5 className='col-6 m-0  custom-text-color'>
                         - Access to all scientific sessions and exhibits
                     </h5>
@@ -111,7 +111,6 @@ const Registration = () => {
             </div>
         </Container>
     </>
-
     )
 }
 
