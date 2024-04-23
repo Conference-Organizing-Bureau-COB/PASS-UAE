@@ -12,6 +12,7 @@ import About from './Components/About/About';
 import Conference from './Components/Conference/Conference';
 import Accomodation from './Components/Accomodation/Accomodation';
 import Newsletter from './Components/Newsletter/Newsletter';
+import Registration from './Components/Registration/Registration';
 
 function App() {
   return <>
@@ -21,6 +22,7 @@ function App() {
     <Overview />
     <About />
     <Conference />
+    <Registration />
     <Accomodation />
     <Newsletter />
     <Footer />
