@@ -52,13 +52,13 @@ const CustomNavbar = () => {
                 <Navbar.Collapse id="navbarSupportedContent" className="justify-content-end">
                     <Nav className="ml-auto mx-3 gap-4">
                         <Nav.Item>
-                            <Nav.Link active className="text-light text-uppercase custom-size" href="#">Home</Nav.Link>
+                            <Nav.Link active className="text-light text-uppercase custom-size" href="#home">Home</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link className="text-light text-uppercase custom-size" href="#">Welcome Message</Nav.Link>
+                            <Nav.Link className="text-light text-uppercase custom-size" href="#welcome">Welcome Message</Nav.Link>
                         </Nav.Item>
                         <Dropdown >
-                            <Dropdown.Toggle className="text-light text-uppercase border-0 custom-size px-0" variant="transparent" id="dropdown-basic">
+                            <Dropdown.Toggle className="text-light text-uppercase border-0 custom-size px-0" href='#overview' variant="transparent" id="dropdown-basic">
                                 Overview
                             </Dropdown.Toggle>
                             {/* <Dropdown.Menu>
@@ -69,7 +69,7 @@ const CustomNavbar = () => {
                             </Dropdown.Menu> */}
                         </Dropdown>
                         <Dropdown>
-                            <Dropdown.Toggle className="text-light text-uppercase border-0 custom-size px-0" variant="transparent" id="dropdown-basic">
+                            <Dropdown.Toggle className="text-light text-uppercase border-0 custom-size px-0" href='#program-board-members' variant="transparent" id="dropdown-basic">
                                 Program
                             </Dropdown.Toggle>
                             {/* <Dropdown.Menu>
@@ -81,13 +81,13 @@ const CustomNavbar = () => {
                         </Dropdown>
 
                         <Nav.Item>
-                            <Nav.Link className="text-light text-uppercase custom-size" href="#">Registration</Nav.Link>
+                            <Nav.Link className="text-light text-uppercase custom-size" href="#registeration">Registration</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link className="text-light text-uppercase custom-size" href="#">Accomodation</Nav.Link>
+                            <Nav.Link className="text-light text-uppercase custom-size" href="#accommodation">Accomodation</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link className="text-light text-uppercase custom-size" href="#">Contact Us</Nav.Link>
+                            <Nav.Link className="text-light text-uppercase custom-size" href="#contact-footer">Contact Us</Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>

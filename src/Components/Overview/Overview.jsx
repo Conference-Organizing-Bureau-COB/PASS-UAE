@@ -13,7 +13,7 @@ const Overview = () => {
         height: '100vh '// Adjust height as needed
     };
     return (
-        <Container fluid style={bg}>
+        <Container fluid style={bg} id='overview'>
             <div className='pt-5 d-flex justify-content-center align-items-center'>
                 <h3 className='text-light text-uppercase text-center fw-bold welcome-text p-2'><span className=' text-decoration-underline'>Ov</span>erview</h3>
             </div>

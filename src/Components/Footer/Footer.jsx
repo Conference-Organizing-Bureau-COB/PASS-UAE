@@ -28,7 +28,7 @@ export default function Footer() {
     return (
         <>
 
-            <MDBFooter className='text-center text-lg-start text-light'>
+            <MDBFooter className='text-center text-lg-start text-light' id='contact-footer'>
                 <section className='pt-5' style={{ backgroundColor: '#272A7B' }}>
 
                     <MDBContainer className='text-center text-md-start'>
@@ -103,40 +103,40 @@ export default function Footer() {
                                 <h4 className=' fw-bold mb-4'>Information</h4>
                                 <p className='d-flex gap-2 hover'>
                                     <FontAwesomeIcon icon={faCircleRight} className='circle-icon' />
-                                    <a href='#!' className=' text-decoration-none h6'>
+                                    <a href='#' className=' text-decoration-none h6'>
                                         Home
                                     </a>
                                 </p>
                                 <hr style={{ width: "200px" }} />
                                 <p className='d-flex gap-2 hover'>
                                     <FontAwesomeIcon icon={faCircleRight} className='circle-icon' />
-                                    <a href='#!' className=' text-decoration-none h6'>
+                                    <a href='#welcome' className=' text-decoration-none h6'>
                                         Welcome Message
                                     </a>
                                 </p>
                                 <p className='d-flex gap-2 hover'>
                                     <FontAwesomeIcon icon={faCircleRight} className='circle-icon' />
-                                    <a href='#!' className='text-decoration-none h6'>
+                                    <a href='#overview' className='text-decoration-none h6'>
                                         Overview
                                     </a>
                                 </p>
                                 <p className='d-flex gap-2 hover'>
                                     <FontAwesomeIcon icon={faCircleRight} className='circle-icon' />
-                                    <a href='#!' className=' text-decoration-none h6'>
+                                    <a href='#program-board-members' className=' text-decoration-none h6'>
                                         Program
                                     </a>
                                 </p>
                                 <hr style={{ width: "200px" }} />
                                 <p className='d-flex gap-2 hover'>
                                     <FontAwesomeIcon icon={faCircleRight} className='circle-icon' />
-                                    <a href='#!' className=' text-decoration-none h6'>
+                                    <a href='#registeration' className=' text-decoration-none h6'>
                                         Registration
                                     </a>
                                 </p>
                                 <hr style={{ width: "200px" }} />
                                 <p className='d-flex gap-2 hover'>
                                     <FontAwesomeIcon icon={faCircleRight} className='circle-icon' />
-                                    <a href='#!' className=' text-decoration-none h6'>
+                                    <a href='#accommodation' className=' text-decoration-none h6'>
                                         Accommodation
                                     </a>
                                 </p>
@@ -144,7 +144,7 @@ export default function Footer() {
 
                                 <p className='d-flex gap-2 hover'>
                                     <FontAwesomeIcon icon={faCircleRight} className='circle-icon' />
-                                    <a href='#!' className=' text-decoration-none h6'>
+                                    <a href='#contact-footer' className=' text-decoration-none h6'>
                                         Contact Us
                                     </a>
                                 </p>
