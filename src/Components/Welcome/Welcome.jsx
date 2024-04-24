@@ -19,7 +19,7 @@ const Welcome = () => {
 
 
     return (
-        <Container fluid style={containerStyle}>
+        <Container fluid style={containerStyle} id='welcome'>
             <div className='pt-5 d-flex justify-content-center align-items-center'>
                 <h3 className='text-light text-uppercase text-center welcome-text p-2 fw-bold'><span className=' text-decoration-underline fw-bold'>Wel</span>come Message</h3>
             </div>

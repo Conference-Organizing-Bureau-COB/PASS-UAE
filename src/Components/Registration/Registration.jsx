@@ -13,7 +13,7 @@ const bg = {
 }
 const Registration = () => {
     return (<>
-        <Container fluid style={bg}>
+        <Container fluid style={bg} id='registeration'>
             <div className='pt-5 pb-4 d-flex justify-content-center align-items-center'>
                 <h3 className='text-light text-uppercase  text-center about-text p-2 fw-bold'>
                     <span className=' text-decoration-underline fw-bold'>Reg</span>
@@ -81,7 +81,7 @@ const Registration = () => {
         </Container>
 
         {/* Package Section */}
-        <Container className='pb-5'>
+        <Container className='pb-5 '>
             <div className="row text-center d-flex justify-content-center align-items-center">
                 <div className='container pt-3 col-7'>
                     <h4 className=' pt-5 pb-3 fw-bold text-center custom-text-color' >
@@ -91,24 +91,32 @@ const Registration = () => {
 
             </div>
 
-            <div className="row">
-                <div className='container col-lg-9 col-md-12 col-sm-12 col-xs-12 d-flex gap-2'>
-                    <h5 className='col-6 m-0 py-1  custom-text-color'>
+            <Row className='px-5'>
+                {/* <Container> */}
+                <Col lg={6} md={12} sm={12}>
+                    <h5 className=' m-0 py-1  custom-text-color'>
                         - Conference kit & materials
                     </h5>
-                    <h5 className='col-6 m-0 py-1 bg-transparent p-0 custom-text-color' >
+                </Col>
+                <Col lg={6} md={12} sm={12}>
+                    <h5 className=' m-0 py-1 bg-transparent p-0 custom-text-color' >
                         - Conference certificate
                     </h5>
-                </div>
-                <div className='container col-lg-9 col-md-12 col-sm-12 col-xs-12 d-flex gap-2'>
-                    <h5 className='col-6 m-0  custom-text-color'>
+                </Col>
+                <Col lg={6} md={12} sm={12}>
+                    <h5 className=' m-0  custom-text-color'>
                         - Access to all scientific sessions and exhibits
                     </h5>
-                    <h5 className=' m-0  col-lg-7 col-md-12 col-sm-12 col-xs-12 bg-transparent p-0 custom-text-color' >
+                </Col>
+                <Col lg={6} md={12} sm={12}>
+                    <h5 className=' m-0 py-1 bg-transparent p-0 custom-text-color' >
                         - Meals during the conference day
                     </h5>
-                </div>
-            </div>
+                </Col>
+                {/* </Container> */}
+                {/* <div className='container col-5 d-flex gap-2'>
+                </div> */}
+            </Row>
         </Container>
     </>
     )

@@ -10,7 +10,7 @@ const bg = {
 }
 const Accomodation = () => {
     return (
-        <Container fluid style={bg}>
+        <Container fluid style={bg} id='accommodation'>
             <div className='pt-5 d-flex justify-content-center align-items-center'>
                 <h3 className='text-light text-uppercase  text-center about-text p-2 fw-bold'><span className=' text-decoration-underline fw-bold'>Acc</span>omodation</h3>
             </div>

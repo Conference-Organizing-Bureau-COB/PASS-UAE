@@ -1,0 +1,27 @@
+.img {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    transform: translate(-35%, 225%);
+}
+
+.board-text {
+    width: 450px;
+    /* height: 70px; */
+    /* border-radius: 25px; */
+    background: rgb(52, 52, 179);
+    background: linear-gradient(250deg, rgba(52, 52, 179, 1) 0%, rgba(52, 52, 179, 1) 65%, rgba(247, 205, 115, 1) 100%);
+}
+
+/* .overlay::after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6, 5, 38, 0.788);
+} */

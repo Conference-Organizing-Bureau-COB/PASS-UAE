@@ -13,7 +13,7 @@ const Hero = () => {
     };
 
     return (<>
-        <Container fluid style={containerStyle}>
+        <Container fluid style={containerStyle} id='home'>
             <Row>
                 <Col xs={1} sm={1} md={1} lg={1}></Col>
                 <Col xs={12} sm={6} md={4} lg={8} className='mt-5 pt-4'>
